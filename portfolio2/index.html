@@ -1,0 +1,380 @@
+<!doctype html>
+<html><head>
+<link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="divice-width, initial-scale=1">
+<script src="js/jquery-3.5.1.js"></script>
+
+<script>
+$("document").ready(function(){
+	$(".menu-button").click(function(){
+	$(".m-nav").toggle();
+	})
+})
+</script>
+
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+		
+      }
+
+      body {
+        
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+		
+      }
+
+      .swiper {
+        width: 85%;
+        height: 100%;
+		margin-right:170px;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+		border-radius:15px;
+		
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+
+
+<meta charset="utf-8">
+<title>Juily作品集</title>
+</head>
+
+<body>
+<!--header-->
+<div class="header">
+	<div class="menu-button">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<ul class="m-nav">
+		<li><a href="#top">HOME</a></li>
+		<li><a href="#about-me">ABOUT</a></li>
+		<li><a href="#blog">BLOG</a></li>
+		<li><a href="#contact-m">CONTACT</a></li>
+	</ul>
+<div class="header-bottom"></div>
+	<div class="logo"><img src="img/logo.png" alt=""></div>
+	<div class="menu">
+		<a href="#top">Home</a>
+		<a href="#about-me">About</a>
+		<a href="#blog">Blog</a>
+		<a href="#contact-me">Contact</a>
+	</div>
+	<div class="clearfix"></div>
+</div>
+
+<div class="thought">
+	<div class="thought-left">
+	<!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/thought1.png" alt=""></div>
+        <div class="swiper-slide"><img src="img/thought2.png" alt=""></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+	
+	</div>
+	<div class="thought-right">
+		<h2>My Thoughts</h2>
+		<div class="position1">
+			<img src="img/thought3.png" alt="">
+			<div class="pink1"></div>
+		</div>
+			<p>因應時代的變化、3C產品的誕生<br>
+			而改變了人與人之間的相處模式<br>
+			為此，想運用網頁設計，變相地<br>
+			透過視覺及互動來讓人感受到溫暖</p>
+	<div class="clearfix"></div>
+	</div>
+</div>
+
+<!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+		  },
+		  autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+		loop:true,
+      });
+	 
+    </script>
+
+<a name="about-me"></a>
+<!--auout-->
+<div class="about">
+	<div class="about-left">
+	<h2>Hi！I’m Juily</h2>
+	<p>我是廖珮筎，83年次，來自台中市<br>
+		生活中喜歡感受(視覺)上美的事物<br>
+		高中時期就讀日間部－廣告設計科<br>
+		畢業於朝陽科技大學－傳播藝術系<br>
+		運用業餘時間來學習設計相關技能<br>
+		不斷進修並提升自己，讓腦袋運轉<br><br>
+		設計，就是要不停創新，才能跟上時代的腳步</p>
+	</div>
+	<div class="about-right">
+		<div class="position2">
+			<img src="img/about1.png" alt="">
+			<div class="pink2"></div>
+		</div>			
+	</div>	
+	<div class="clearfix"></div>
+</div>
+
+	<div class="about-left-media">
+	<h2>Hi！I’m Juily</h2>
+	<p>我是廖珮筎，83年次，來自台中市<br>
+		生活中喜歡感受(視覺)上美的事物<br>
+		高中時期就讀日間部－廣告設計科<br>
+		畢業於朝陽科技大學－傳播藝術系<br>
+		運用業餘時間來學習設計相關技能<br>
+		不斷進修並提升自己，讓腦袋運轉<br><br>
+		設計，就是要不停創新，才能跟上時代的腳步</p>
+		<div class="clearfix"></div>
+	</div>	
+
+	<a name="blog"></a>
+
+<div class="sub-line"></div>
+
+<!--posts-->
+<div class="post">
+	<h2>My Posts</h2>
+</div>
+
+<div class="posts">
+	<div class="posts-left">
+		<img src="img/posts1.png" alt="">
+		<div class="label">後疫情時代來臨</div>
+	</div>
+	<div class="posts-right">
+		<h3>我們是特別的種子</h3>
+		<p>2022年與同齡夥伴們，籌備了一支新品牌<br>
+			Uncurbed 理念為「無論你是誰都能展現」<br>
+			結合現代的街頭元素，呈現在商品設計上<br>
+			主要負責: 財務管理、KOL接洽、網頁編排等
+		</p>
+		<a href="https://uncurbed.com.tw/" target="_blank"><img src="img/logo1.png" alt=""></a>
+		<div class="bottom-line1"></div>
+		<div class="bottom-line2"></div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+
+<div class="posts">
+	<div class="posts-left">
+		<a href=""><img src="img/posts2.png" alt=""></a>
+		<div class="label">差異化時代來臨</div>
+	</div>
+	<div class="posts-right">
+		<h3>跳脫出框架的限制</h3>
+		<p>我們都在打造個人定位或品牌形象，而我為愛寵<br>
+			設計專屬的部落格及社群，記錄生活與成長片刻<br>
+			記憶，是最美好的</p>
+			<a href="https://juily-r.github.io/portfolio1.github.io/portfolio1/index.html
+
+" target="_blank"><img src="img/logo2.png" alt=""></a>
+			
+		<div class="bottom-line1"></div>
+		<div class="bottom-line2"></div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+
+<div class="posts">
+	<div class="posts-left">
+		<img src="img/posts3.png" alt="">
+		<div class="label">工作經歷</div>
+	</div>
+	<div class="posts-work"><br>
+		<h3>工作經歷</h3>
+		
+		<div class="work">
+			<div class="time">2020</div>
+			<div class="name">富士康物業管理顧問｜秘書</div>
+		</div>
+		<div class="work">
+			<div class="time">2017</div>
+			<div class="name">富邦人壽｜業務員</div>
+		</div>
+		<div class="work">
+			<div class="time">2016</div>
+			<div class="name"> mr.Cookie 貓餐廳｜服務生</div>
+		</div>
+		<div class="work">
+			<div class="time">2013</div>
+			<div class="name">門牌設計、試卷繪圖｜繪圖</div>
+		</div><br><br>
+		<div class="bottom-line1"></div>
+		<div class="bottom-line2"></div>
+	</div>
+	<div class="clearfix"></div>
+</div>
+	
+<div class="posts">
+	<div class="posts-left">
+		<img src="img/posts4.png" alt="">
+		<div class="label">電腦技能</div>
+	</div>
+		<div class="posts-skill">
+		<h3>電腦技能</h3>
+			<div class="skill">
+			<div class="kind">網站</div>
+			<div class="to"><img src="img/logo7.png" alt=""></div>
+			<div class="name">Dreamweaver</div>
+			</div>
+			<div class="skill">
+			<div class="kind">影片</div>
+			<div class="to"><img src="img/logo8.png" alt=""></div>
+			<div class="name">威力導演</div>
+			</div>
+			<div class="skill">
+			<div class="kind">繪圖</div>
+			<div class="to"><img src="img/logo9.png" alt=""></div>
+			<div class="name">Office Visio</div>
+			</div>
+			<div class="skill">
+			<div class="kind">繪圖</div>
+			<div class="to"><img src="img/logo10.png" alt=""></div>
+			<div class="name">Coreldraw</div>
+			</div>
+			<div class="skill">
+			<div class="kind">繪圖</div>
+			<div class="to"><img src="img/logo11.png" alt=""></div>
+			<div class="name">Phtotshop</div>
+			</div>
+			<div class="bottom-line1"></div>
+			<div class="bottom-line2"></div>
+		</div>
+		<div class="clearfix"></div>
+</div>
+
+<!--footer-->
+<div class="footer">
+		<a name="contact-m"></a>
+	<div class="contact-media">
+			<div class="contact">Contact</div>
+		<div class="footer-ri">
+			<div class="ri-zi">Nmae:</div>
+			<input type="text" size="30">
+		</div>
+		<div class="footer-ri">
+			<div class="ri-zi">E-mail:</div>
+			<input type="text" size="30">
+		</div>
+		<div class="footer-ri">
+			<div class="ri-zi">Subject:</div>
+			<input type="text" size="30">
+		</div>
+		<div class="footer-ri">
+			<div class="ri-zi">Content:</div>
+			<textarea name="content" id="" cols="30" rows="7"></textarea>
+			<div class="bottom-line3"></div>
+		</div>
+			<input class="submit" type="submit" value="Submit">
+		</div>
+			<div class="clearfix"></div>
+			
+	<div class="footer-left">
+	<div class="footer-le">
+		<div class="footer-name">Juily <span>WEB DESIGNER</span></div>
+			<div class="fb"> <a href="https://www.facebook.com/juily0402" target="_blank"><img src="img/logo15.png" alt=""></a> </div>
+			<div class="ig"> <a href="https://www.instagram.com/juily0402/" target="_blank"><img src="img/logo14.png" alt=""></a> </div>
+	</div>
+	<div class="footer-le">
+		<div class="le-to"><img src="img/logo12.png" alt=""></div>
+		<div class="le-zi">0985-633045</div>
+	</div>
+	<div class="footer-le">
+		<div class="le-to"><img src="img/logo13.png" alt=""></div>
+		<div class="le-zi">mary5200p@gmail.com</div>
+	</div>
+	<div class="footer-le"></div>
+	<div class="footer-le">
+		<div class="copyright">© 2022  Juily web designer. All rights reserved </div>
+	</div>
+	<div class="clearfix"></div>
+	</div>	
+	
+	<div class="footer-right">
+		<a name="contact-me"></a>
+			<div class="contact">Contact</div>
+		<div class="footer-ri">
+			<div class="ri-zi">Nmae:</div>
+			<input type="text" size="30">
+		</div>
+		<div class="footer-ri">
+			<div class="ri-zi">E-mail:</div>
+			<input type="text" size="30">
+		</div>
+		<div class="footer-ri">
+			<div class="ri-zi">Subject:</div>
+			<input type="text" size="30">
+		</div>
+		<div class="footer-ri">
+			<div class="ri-zi">Content:</div>
+			<textarea name="content" id="" cols="30" rows="7"></textarea>
+			<div class="bottom-line3"></div>
+		</div>
+			<input class="submit" type="submit" value="Submit">
+			
+		</div>
+			<div class="clearfix"></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
